@@ -1,0 +1,129 @@
+
+.logo{
+    
+    height: 90px;
+    width: 100%;
+    background-color:rgb(91, 151, 186);
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+    
+}
+.finallogo{
+    background-image: url(bhumi\ logo\ 2.png);
+    
+    height: 76%;
+    width: 29%;
+    background-size: cover; 
+}
+.intro p{
+   
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 1.6;
+  /* text-align: left; */
+ margin-top: 5%
+ ;
+}
+.head{
+    color:rgb(91, 151, 186);
+    font-size: 2.5rem;
+}
+.html{
+    color:rgb(91, 151, 186);
+    font-size: 1.3rem;
+}
+
+img{
+    border-radius: 50%;
+    height: 340px;
+    width: 300px;
+    margin-top: 9px;
+    border: 6.5px solid rgb(91, 151, 186);
+}
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+
+}
+.bhumi{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+/*Skills and Expertise */
+
+.skills{
+   margin-top:8.5%;
+   font-size: 2rem;
+   padding-left: 10px;
+   display: flex; 
+   /* width: 100%; */
+   /* margin-left:12%; */
+}
+.logo:hover{
+    background-color:rgb(53, 53, 53);
+}
+.lists{
+    /* margin-left:12%; */
+    font-size:1.25rem;
+    line-height: 1.6;
+}
+h2{
+    background-color: rgb(91, 151, 186);
+    color: white;
+} 
+.project{
+    font-size: 2rem;
+   padding-left: 10px;
+}
+.points{
+    /* background-color: black; */
+    margin-top: -20px;
+}
+.proj{
+    margin-top: 30px;
+}
+h3{
+    color: rgb(7, 59, 91);
+}
+.bold{
+    font-weight: bold;
+}
+/* a:hover{
+    border: 2px solid black;
+} */
+.contact{
+    border: 1px solid black;
+    height: 220px;
+    width: 300px ;
+    border-radius: 20%;
+}
+.links{
+    margin-left: 16px;
+}
+.tag{
+    font-size:1.5rem;
+}
+.contact:hover{
+    border: 2px solid rgb(7,59,91);
+}
+.links:hover{
+     color:rgb(7, 59, 91);
+}
+footer{
+    background-color:rgb(91, 151, 186) ;
+    color: white;
+    height:60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+/* .links h3{
+  border
+} */
